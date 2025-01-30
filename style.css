@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background: black;
+}
+
+.Navbar{
+    color: white;
+    margin-left: 232px;
+    margin-top: 98px;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: "Inter", serif;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title p {
+    color: white;
+    font-family: "Inter";
+    font-size: 15px;
+}
+.title h1 {
+    color: white;
+    font-family: "Inter";
+}
+.text-bottom{
+    margin-top: -45px;
+}
+
+.title p.text-top{
+    margin-top: -15px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+.btn-navigasi{
+    justify-content: flex-start;
+    display: flex;
+    gap: 23px;
+    font-family: "Inter";
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn-navigasi .btn-item{
+    color: black;
+    text-decoration: none;
+    background: white;
+    border-radius: 30px;
+    width: 116px;
+    height: 26px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.text0{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter";
+    gap: 20px;
+    margin-top: 90px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.text0 .box-text{
+    width: 426px;
+    height: 95px;
+    color: white;
+    font-size: 13px;
+    gap: 20px;
+    background-color: #1E1E1E;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text0 .box-text .minggir1{
+    margin-left: -200px;
+}
+.text0 .box-text .minggir2{
+    margin-left: -80px;
+}
+.text0 .box-text .minggir3{
+    margin-left: -120px;
+}
+
+.bottom{
+    margin-bottom: 50px;
+}
+
+@media (max-width: 430px ) {
+    .Navbar{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .text-top0{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 9px;
+    }
+    .text-bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 9px;
+        margin-top: 40px;
+    }
+    .hide-br{
+        display: none;
+    }
+    .title p.text-top{
+        margin-top: -4px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        text-align: center;
+    }
+    .text-bottom{
+        margin-top: -25px;
+    }
+    
+    .btn-navigasi{
+        margin-top: 30px;
+    }
+    .text0{
+        margin-top: 25px;
+        width: 95%;
+        margin-left: 8px;
+    }
+    .text0 .box-text .minggir1{
+        margin-left: -100px;
+    }
+    .text0 .box-text .minggir2{
+        margin-left: 4px;
+    }
+    .text0 .box-text .minggir3{
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 375px ) {
+    .title p.text-top{
+        width: 80%;
+    }
+}
