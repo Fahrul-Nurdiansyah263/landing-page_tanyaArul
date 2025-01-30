@@ -100,6 +100,23 @@ body {
     margin-bottom: 50px;
 }
 
+@media (max-width: 1285px ) and (min-width: 965px) {
+    .text0{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 80px;
+    }
+}
+
+@media (max-width: 965px ) and (min-width: 431px) {
+    .text0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
 @media (max-width: 430px ) {
     .Navbar{
         margin-left: 20px;
@@ -150,6 +167,8 @@ body {
         margin-left: -10px;
     }
 }
+
+
 
 @media (max-width: 375px ) {
     .title p.text-top{
